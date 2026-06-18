@@ -219,7 +219,7 @@ This allows the tax team to prioritize review based on objective control indicat
 
 ## 10. Reviewer Comments
 
-The project includes a reviewer commentary layer.
+The project includes an reviewer commentary layer.
 
 This layer generates reviewer-style explanations based on:
 
@@ -242,7 +242,7 @@ In the current version, the comments are template-based and deterministic. This 
 
 The design is intentionally controlled:
 
-* Reviewer comments explain the issue;
+* reviewer comments explain the issue;
 * deterministic rules calculate the risk;
 * human reviewers make the final tax decision.
 
@@ -400,5 +400,4 @@ This project is for portfolio and educational purposes only.
 It is not intended to provide tax advice, calculate final tax liabilities, or replace professional tax review.
 
 All outputs require human tax review and validation.
-
 
