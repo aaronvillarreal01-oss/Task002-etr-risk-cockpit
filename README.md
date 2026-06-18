@@ -1,4 +1,4 @@
-# Task002 — AI-Assisted ETR & Pillar Two Risk Cockpit
+﻿# Task002 â€” ETR & Pillar Two Risk Cockpit
 
 ## 1. Project Overview
 
@@ -6,11 +6,11 @@ This project is a tax technology prototype designed to support entity-level ETR 
 
 The tool ingests sample tax/accounting data, calculates ETR-related metrics, applies deterministic tax control rules, assigns risk scores, generates reviewer-style comments, and exports audit-ready Excel and memo outputs.
 
-The project demonstrates how international tax teams can combine automation, structured controls, AI-assisted explanation, and human review workflow to improve tax governance and reporting readiness.
+The project demonstrates how international tax teams can combine automation, structured controls, reviewer-style explanation, and human review workflow to improve tax governance and reporting readiness.
 
 Core design principle:
 
-**Deterministic rules calculate the risk. AI-style comments explain the risk. Human reviewers decide the final tax position.**
+**Deterministic rules calculate the risk. Reviewer comments explain the risk. Human reviewers decide the final tax position.**
 
 ---
 
@@ -69,47 +69,47 @@ The control framework supports:
 
 ```text
 Entity-Level Tax / Accounting Data
-        ↓
+        â†“
 Data Ingestion Layer
-        ↓
+        â†“
 ETR Calculation Engine
-        ↓
+        â†“
 Deterministic Tax Control Rules
-        ↓
+        â†“
 Risk Scoring & Risk Rating
-        ↓
+        â†“
 Reviewer Workflow
-        ↓
-AI-Style Reviewer Commentary
-        ↓
+        â†“
+Reviewer Commentary
+        â†“
 Excel Risk Report + Tax Review Memo
-        ↓
+        â†“
 Human Tax Review / Final Tax Judgment
 ```
 
 Project files:
 
 ```text
-Task002-ai-etr-risk-cockpit/
-│
-├── data/
-│   └── sample_entity_tax_data.csv
-│
-├── outputs/
-│   ├── etr_risk_register.csv
-│   ├── etr_risk_report.xlsx
-│   └── tax_review_memo.md
-│
-├── src/
-│   ├── calculate_etr.py
-│   ├── risk_rules.py
-│   ├── ai_comments.py
-│   ├── export_excel.py
-│   └── generate_memo.py
-│
-├── main.py
-├── requirements.txt
-└── README.md
+Task002-etr-risk-cockpit/
+â”‚
+â”œâ”€â”€ data/
+â”‚   â””â”€â”€ sample_entity_tax_data.csv
+â”‚
+â”œâ”€â”€ outputs/
+â”‚   â”œâ”€â”€ etr_risk_register.csv
+â”‚   â”œâ”€â”€ etr_risk_report.xlsx
+â”‚   â””â”€â”€ tax_review_memo.md
+â”‚
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ calculate_etr.py
+â”‚   â”œâ”€â”€ risk_rules.py
+â”‚   â”œâ”€â”€ reviewer_comments.py
+â”‚   â”œâ”€â”€ export_excel.py
+â”‚   â””â”€â”€ generate_memo.py
+â”‚
+â”œâ”€â”€ main.py
+â”œâ”€â”€ requirements.txt
+â””â”€â”€ README.md
 ```
 
 ---
@@ -201,8 +201,8 @@ Each triggered control adds points to the entity risk score.
 Risk ratings are assigned as follows:
 
 ```text
-0–20 points = Low Risk
-21–49 points = Medium Risk
+0â€“20 points = Low Risk
+21â€“49 points = Medium Risk
 50+ points = High Risk
 ```
 
@@ -217,9 +217,9 @@ This allows the tax team to prioritize review based on objective control indicat
 
 ---
 
-## 10. AI-Style Reviewer Comments
+## 10. Reviewer Comments
 
-The project includes an AI-style commentary layer.
+The project includes a reviewer commentary layer.
 
 This layer generates reviewer-style explanations based on:
 
@@ -235,14 +235,14 @@ This layer generates reviewer-style explanations based on:
 The comments are generated in:
 
 ```text
-src/ai_comments.py
+src/reviewer_comments.py
 ```
 
 In the current version, the comments are template-based and deterministic. This allows the project to run without external API keys.
 
 The design is intentionally controlled:
 
-* AI-style comments explain the issue;
+* Reviewer comments explain the issue;
 * deterministic rules calculate the risk;
 * human reviewers make the final tax decision.
 
@@ -370,7 +370,7 @@ A full Pillar Two calculation engine would require additional data and logic, in
 * local country-specific rules;
 * source-verified technical analysis.
 
-The current AI-style comments are not tax advice. They are reviewer-support comments generated from the available data and triggered controls.
+The current reviewer comments are not tax advice. They are reviewer-support comments generated from the available data and triggered controls.
 
 ---
 
@@ -400,3 +400,5 @@ This project is for portfolio and educational purposes only.
 It is not intended to provide tax advice, calculate final tax liabilities, or replace professional tax review.
 
 All outputs require human tax review and validation.
+
+

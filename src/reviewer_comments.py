@@ -4,8 +4,6 @@ import pandas as pd
 def generate_reviewer_comment(row: pd.Series) -> str:
     """
     Generates a reviewer-style tax comment based on the entity's risk profile.
-    This version is deterministic/template-based.
-    Later, this can be upgraded to use an LLM.
     """
 
     entity = row["entity_name"]
@@ -68,6 +66,6 @@ def add_reviewer_comments(df: pd.DataFrame) -> pd.DataFrame:
     """
 
     df = df.copy()
-    df["ai_reviewer_comment"] = df.apply(generate_reviewer_comment, axis=1)
+    df["reviewer_comment"] = df.apply(generate_reviewer_comment, axis=1)
 
     return df

@@ -48,7 +48,7 @@ def export_risk_report(df: pd.DataFrame, output_file: str) -> None:
         "risk_rating",
         "triggered_controls",
         "next_action",
-        "ai_reviewer_comment",
+        "reviewer_comment",
         "reviewer",
         "review_status",
     ]

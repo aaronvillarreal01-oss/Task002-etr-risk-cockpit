@@ -1,4 +1,4 @@
-# AI-Assisted ETR and Pillar Two Risk Review Memo
+# ETR and Pillar Two Risk Review Memo
 
 ## 1. Executive Summary
 
@@ -16,11 +16,11 @@ The review is intended to support tax risk identification, Pillar Two readiness,
 
 The tool applied deterministic tax controls to entity-level tax and accounting data. These controls reviewed indicators such as profit before tax, current tax expense, deferred tax expense, total tax expense, cash tax paid, statutory tax rate, covered taxes status, Pillar Two relevance, reviewer assignment, and review status.
 
-AI-style reviewer comments were generated to explain the risk profile of each entity. These comments are not final tax advice. They are intended to support human review by the tax team.
+Reviewer comments were generated to explain the risk profile of each entity. These comments are not final tax advice. They are intended to support human review by the tax team.
 
 The control design follows the principle:
 
-**Deterministic rules calculate the risk. AI-style comments explain the risk. Human reviewers decide the final tax position.**
+**Deterministic rules calculate the risk. Reviewer comments explain the risk. Human reviewers decide the final tax position.**
 
 ## 3. Key Risk Indicators
 
@@ -38,7 +38,7 @@ The following risk indicators were reviewed:
 
 ## 4. High-Risk Entities
 
-### MX001 — Mexico Distribution SA
+### MX001 â€” Mexico Distribution SA
 
 - Country: Mexico
 - Region: LATAM
@@ -63,8 +63,8 @@ Based on the results, the tax team should consider the following actions:
 
 ## 6. Limitations
 
-This memo is generated from sample data and simplified tax control logic. It does not calculate a final Pillar Two effective tax rate and does not replace professional tax analysis. The purpose of the tool is to demonstrate how tax risk review can be supported through automation, structured controls, AI-assisted explanations, and human review workflow.
+This memo is generated from sample data and simplified tax control logic. It does not calculate a final Pillar Two effective tax rate and does not replace professional tax analysis. The purpose of the tool is to demonstrate how tax risk review can be supported through automation, structured controls, automatically generated explanations, and human review workflow.
 
 ## 7. Conclusion
 
-The AI-assisted ETR and Pillar Two Risk Cockpit provides a structured approach to identifying tax reporting risks across legal entities. The project demonstrates how tax teams can combine deterministic tax controls, risk scoring, reviewer workflow, and AI-assisted commentary to improve tax governance and reporting readiness.
+The ETR and Pillar Two Risk Cockpit provides a structured approach to identifying tax reporting risks across legal entities. The project demonstrates how tax teams can combine deterministic tax controls, risk scoring, reviewer workflow, and automatically generated commentary to improve tax governance and reporting readiness.

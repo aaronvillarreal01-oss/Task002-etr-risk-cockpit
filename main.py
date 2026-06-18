@@ -2,7 +2,7 @@ import pandas as pd
 
 from src.calculate_etr import calculate_etr_metrics
 from src.risk_rules import apply_risk_rules
-from src.ai_comments import add_reviewer_comments
+from src.reviewer_comments import add_reviewer_comments
 from src.export_excel import export_risk_report
 from src.generate_memo import generate_tax_review_memo
 
@@ -32,7 +32,7 @@ def main():
         "risk_rating",
         "triggered_controls",
         "next_action",
-        "ai_reviewer_comment",
+        "reviewer_comment",
     ]
 
     risk_register = df[columns_to_show]
