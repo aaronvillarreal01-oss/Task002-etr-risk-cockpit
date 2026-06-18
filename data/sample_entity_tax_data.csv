@@ -1,0 +1,11 @@
+entity_id,entity_name,country,region,revenue,profit_before_tax,current_tax_expense,deferred_tax_expense,total_tax_expense,cash_tax_paid,statutory_tax_rate,prior_year_losses,covered_taxes_flag,pillar_two_relevant,reviewer,review_status,comments
+NL001,Dutch Holding BV,Netherlands,EMEA,5000000,1200000,300000,20000,320000,280000,0.258,No,Yes,Yes,Aaron,Pending,
+IE001,Irish IP Ltd,Ireland,EMEA,8000000,3000000,150000,0,150000,100000,0.125,No,Yes,Yes,Unassigned,Pending,
+BR001,Brazil Services Ltd,Brazil,LATAM,2500000,600000,210000,-30000,180000,170000,0.34,No,Yes,No,Aaron,Reviewed,
+MX001,Mexico Distribution SA,Mexico,LATAM,4000000,900000,0,0,0,0,0.30,No,No,Yes,Unassigned,Pending,
+AE001,UAE Regional Hub,UAE,EMEA,7000000,2500000,200000,0,200000,150000,0.09,No,Yes,Yes,Unassigned,Pending,
+US001,US Parent Inc,United States,Americas,15000000,4000000,840000,60000,900000,850000,0.21,No,Yes,Yes,Sarah,Reviewed,
+LU001,Lux Finance SARL,Luxembourg,EMEA,3000000,1000000,80000,0,80000,50000,0.2494,No,Yes,Yes,Unassigned,Pending,
+SG001,Singapore Procurement Pte,Singapore,APAC,6000000,1100000,180000,10000,190000,160000,0.17,No,Yes,Yes,Aaron,Pending,
+DE001,Germany Manufacturing GmbH,Germany,EMEA,9000000,1500000,450000,20000,470000,430000,0.30,No,Yes,Yes,Anna,Reviewed,
+FR001,France Sales SAS,France,EMEA,5500000,-200000,50000,0,50000,40000,0.25,Yes,Yes,Yes,Unassigned,Pending,
